@@ -82,6 +82,7 @@
             body {
                 font-size: 16px;
                 color: #000000;
+                background-color: var(--white);
                 font-family: 'Manrope', sans-serif;
                 font-weight: 400;
                 font-style: normal;
@@ -93,10 +94,96 @@
     </head>
 
     <body>
-        <div id="app">
-            Започни работа тук. Успех! :)
-        </div>
+        <div class="app">
+            <nav>
+                <div class="navbar">
+                    <div class="logo_main">
+                        <div class="display_logo logo"></div>
+                    </div>
 
+                    <div class="navigation">
+                        <ul class="nav_items">
+                            <li class="nav_item">
+                                <a href="#deserts" class="nav_link">Нашите десерти</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#reviews" class="nav_link">Отзиви</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#questions" class="nav_link">За поръчки и запитвания</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#feedback" class="nav_link">Препоръки</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#info" class="nav_link">Медиите за нас</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#contact" class="nav_link">Контакти</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="btn_container">
+                <article>
+                    <p class="tittle">Десерти Kristallino – където <span class="tittle_color">изкуството</span> среща <span class="tittle_color">десерта</span>.</p>
+                    <p class="tittle_text">Отдайте се на нашите изящни творения, изработени със страст и прецизност от световноизвестния сладкар Кристалин Илиев. Разгледайте нашите иновативни десерти, които обещават да измамят вкусовите ви рецептори и да запалят сетивата ви.</p>
+                </article>
+                <div class="btn">
+                    <div class="request"><a href="#deserts">Направи заявки</a></div>
+                    <div class="btn_more"><div class="more"><a href="#">Научи повече</a></div></div>
+                </div>
+            </div>
+            <div class="container" id="deserts">
+                <div class="container_item">
+                    <article>
+                        <img src="/src/img/strawberry.png" alt="">
+                        <p class="tittle">Ягоди и босилек </p>
+                        <p class="tittle_text">Отпразнувайте същността на лятото със зрели ягоди, съчетани с ароматен босилек, освежаващо удоволствие за небцето.</p>
+                        <div class="more_info">Научете Повече</div>
+                    </article>       
+                </div>
+                <div class="container_item">
+                    <article>
+                        <img src="/src/img/honey.png" alt="">
+                        <p class="tittle">Кисело мляко, орехи и мед </p>
+                        <p class="tittle_text">Насладете се на перфектния баланс на кремообразно кисело мляко, хрупкави орехи и сладък мед в този райски десерт.</p>
+                        <div class="more_info">Научете Повече</div>
+                    </article>
+                </div>
+                <div class="container_item">
+                    <article>
+                        <img src="/src/img/becon.png" alt="">
+                        <p class="tittle">Бекон и боровинки</p>
+                        <p class="tittle_text">Впуснете се в кулинарно приключение с пикантен бекон и сладки боровинки, смела комбинация от вкусове, която се противопоставя на очакванията.</p>
+                        <div class="more_info">Научете Повече</div>
+                    </article>
+                </div>
+                <div class="container_item">
+                    <article>
+                        <img src="/src/img/sunflower_seeds.png" alt="">
+                        <p class="tittle">Слънчогледови семки</p>
+                        <p class="tittle_text">Насладете се на неочакваната комбинация от кремообразна доброта и хрупкави слънчогледови семки, уникално лакомство, което ще ви накара да жадувате за още.</p>
+                        <div class="more_info">Научете Повече</div>
+                    </article>
+                </div>
+            </div>
+            <div class="article_container">
+                    <img src="/src/img/chef.png" alt="">
+                    <p><span class="tittle">Chef Кристалин</span><br>Шеф Кристалин Илиев е световноизвестен сладкар, известен със своите иновативни и артистични творения на десерти. С повече от две десетилетия опит, той съчетава традиционни техники с модерни вкусове, завладявайки кулинарния свят чрез своята марка Krystallino. Уникалните десерти на шеф Кристалин, като кисело мляко с орехи и мед или бекон с боровинки, отразяват неговата отдаденост на качеството и креативността, спечелвайки й международно признание и лоялни последователи.</p>
+            </div>
+            <div class="container_feedback" id="reviews">
+                <p class="tittle">Отзиви от клиенти</p>
+                <div class="feedback">
+                <p>Майкъл Томпсън – ⭐⭐⭐⭐⭐<br>„Имах удоволствието да опитам десерта с ягоди и босилек и той надмина всички очаквания. Свежестта на ягодите, съчетана с фината нотка на босилек, беше истинско откровение. Нямам търпение да поръчайте отново!"</p>
+                <p>Емили Чен - ⭐⭐⭐⭐⭐<br>"Десертът с хрупкави слънчогледови семки на Krystallino беше възхитителна изненада! Хрупкавостта на слънчогледовите семки, комбинирана с кремообразната основа, беше перфектна хармония от вкусове и текстури. Наистина трябва да опитате!"</p>
+                <p>Дейвид Мартинез - ⭐⭐⭐⭐⭐<br>"Бях заинтригуван от десерта с бекон и боровинки и той не ме разочарова! Пикантният бекон се съчетаваше изненадващо добре със сладостта на боровинките, създавайки уникално и запомнящо се десертно изживяване."</p>
+                </div>
+            </div>
+            
+        </div>
+            
         <script type="module" src="/src/js/main.js"></script>
     </body>
 </html>
